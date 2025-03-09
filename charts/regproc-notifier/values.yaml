@@ -52,8 +52,8 @@ service:
 
 image:
   registry: docker.io
-  repository: niraqa/registration-processor-notification-service
-  tag: pre-production
+  repository: niradocker/registration-processor-notification-service
+  tag: 1.2.0.1-prod
   ## Specify a imagePullPolicy
   ## Defaults to 'Always' if image tag is 'latest', else set to 'IfNotPresent'
   ## ref: http://kubernetes.io/docs/user-guide/images/#pre-pulling-images
