@@ -5,10 +5,10 @@
 replicaCount: 1
 
 image:
-  repository: niraqa/masterdata-loader
+  repository: niradocker/masterdata-loader
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: pre-production
+  tag: 1.2.0.1-prod
 
 imagePullSecrets: []
 nameOverride: ""
